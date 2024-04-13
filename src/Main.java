@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class Main {
-
+// static blok
     static {
         System.out.println("Static method va static blocklar mavzusi bo'yicha amaliy topshiriq \n ");
     }
+// static uzgaruvchilar
     static double mpi = 3.14159265359;
     static double me = 2.71828182846;
 
@@ -18,6 +19,7 @@ public class Main {
         System.out.println( me + " ning "+ 5 +" - darajasi = "+edaraja+"\n");
        geron(4.5, 6.3,7.9);
     }
+    // static method
     public static void  geron(double a, double b, double c){
         double p =(a+b+c)/2;
         double s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
